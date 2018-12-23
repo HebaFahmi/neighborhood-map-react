@@ -4,7 +4,7 @@ You will develop a single-page application using React featuring a map of your n
 This application follow this [Udacity Project Rubric](https://review.udacity.com/#!/rubrics/1351/view)
 
 ## How to download the project
-Open the online demo [here](https://github.com/HebaFahmi/neighborhood-map-react-heba)
+Open the online demo [here](https://github.com/HebaFahmi/neighborhood-map-react)
 
 ## Available Scripts
 
