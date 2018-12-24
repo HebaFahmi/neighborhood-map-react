@@ -4,24 +4,17 @@ You will develop a single-page application using React featuring a map of your n
 This application follow this [Udacity Project Rubric](https://review.udacity.com/#!/rubrics/1351/view)
 
 ## How to download the project
-Open the online demo [here](https://github.com/HebaFahmi/neighborhood-map-react)
+Open the online demo [here](https://github.com/HebaFahmi/neighborhood-map-react-heba)
 
-## Available Scripts
+## How to run the "neighborhood-map-react-heba" project
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm install`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This command installs a package, and any packages that it depends on.
+Install the dependencies in the local node_modules folder.
+By default, npm install will install all modules listed as dependencies in package.json.
 
 ### `npm run build`
 
@@ -31,6 +24,26 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `npm start`
 
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
+
+## Features in the project
+
+1. Type into the filter/search box to filter the shown locations on the map.
+2. Click on the button below the filter/search box to collapse or expand the suggestions list.
+3. Click anywhere on the map to close the information window that opens.
+4. Click on any marker to see the location details fetched from the [FourSquare APIs](https://developer.foursquare.com/).
+5. Click "Show/Hide" to show or the the suggestions list.
+
+## Service Workers
+When available in the browser, the site uses a service worker to cache responses to requests for site assets. Visited pages are rendered when there is no network access. For production mode run:
+
+- npm run build
+- npm install
+- npm start
+- open the app on localhost:3000
